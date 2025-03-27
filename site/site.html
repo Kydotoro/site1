@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Інтернет-магазин посуду</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Інтернет-магазин посуду</h1>
+        
+        <div class="categories">
+            <div class="category">
+                <img src="https://via.placeholder.com/150?text=Каструлі" id="pots-img">
+                <p>Каструлі</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/150?text=Сковорідки" id="pans-img">
+                <p>Сковорідки</p>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/150?text=Тарілки" id="plates-img">
+                <p>Тарілки</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="clear-pots">Очистити Каструлі</button>
+            <button id="clear-pans">Очистити Сковорідки</button>
+            <button id="clear-plates">Очистити Тарілки</button>
+            <button id="clear-all">Очистити все</button>
+        </div>
+
+        <div class="controls">
+            <button id="show-pots">Показати Каструлі</button>
+            <button id="show-pans">Показати Сковорідки</button>
+            <button id="show-plates">Показати Тарілки</button>
+            <button id="show-all">Показати все</button>
+        </div>
+
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Пошук посуду...">
+        </div>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
